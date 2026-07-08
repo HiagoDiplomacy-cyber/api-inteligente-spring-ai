@@ -124,7 +124,7 @@ curl -X POST http://localhost:8080/transactions/ai \
 
 ## 🧠 Aprendizados Obtidos
 
-Durante este desafio, pudemos aprofundar em conceitos cruciais para o desenvolvimento moderno de APIs inteligentes:
+Durante este desafio, consegui aprofundar em conceitos cruciais para o desenvolvimento moderno de APIs inteligentes:
 - **Spring AI:** Entendimento prático de como orquestrar modelos de linguagem (LLMs), modelos de voz (TTS) e transcrição (Speech-to-Text) com a mesma fluidez de outros módulos do ecossistema Spring.
 - **Tool Calling (Function Calling):** A habilidade de permitir que uma IA decida de forma autônoma quando invocar métodos e lógica reais do backend para concluir o comando de um usuário, unindo processamento de linguagem natural com execução de código real.
 - **DDD e Arquitetura Limpa:** Manter a separação rígida de responsabilidades de forma que a IA seja apenas um canal de entrada (Interface de Usuário inteligente) que consome os mesmos Casos de Uso que a API REST, sem poluir as regras de negócio centrais.
